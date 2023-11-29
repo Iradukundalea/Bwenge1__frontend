@@ -1,0 +1,59 @@
+
+.courseCreationContainer {
+    padding: 20px;
+  }
+  
+  .createcourseim {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .courseCreatorHeader {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .introduction {
+    margin-top: 20px;
+  }
+  
+  .createco {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
+  
+  .adweb {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(50% - 20px); 
+  }
+  
+  .advisor,
+  .advisor2,
+  .webdesign,
+  .webdesign2,
+  .assistance {
+    margin-top: 20px;
+  }
+  
+  .coursetitle {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .readmorecous {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .createparagrah,
+  .createparagrahs {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  
+ 

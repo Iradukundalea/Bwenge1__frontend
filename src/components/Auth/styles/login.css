@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+.loginBody {
+    position: absolute;
+    height: auto;
+    top: 10vh;
+    min-height: 100vh;
+    margin-top: 1rem;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Sansita Swashed", cursive;
+}
+
+.topTitle {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    background-color: rgb(2, 128, 145);
+    color: white;
+}
+
+.topTitle span {
+    padding-left: 30px;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.loginIntro {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(231, 230, 230);
+    color: rgb(22, 22, 22);
+    border-bottom: 2px solid whitesmoke;
+}
+
+.loginIntro span {
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 2rem;
+}
+
+.loginInfo {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 150px;
+    left: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.loginInfo input {
+    width: 300px;
+}
+
+.addiLogin p {
+    padding-top: 5px;
+}
+
+
+
+@media screen and (max-width:2000px) {}
+
+@media screen and (max-width:1150px) {
+    .topTitle {
+        height: 40px;
+    }
+
+    .topTitle span {
+        font-size: 1.5rem;
+    }
+
+    .loginIntro {
+        top: 40px;
+        height: 40px;
+    }
+
+    .loginIntro span {
+        font-size: 1.5rem;
+    }
+
+    .loginInfo {
+        position: absolute;
+        top: 100px;
+        left: 20%;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    .topTitle {
+        height: 30px;
+    }
+
+    .topTitle span {
+        font-size: 1.2rem;
+    }
+
+    .loginIntro {
+        top: 30px;
+        height: 30px;
+    }
+
+    .loginIntro span {
+        font-size: 1rem;
+    }
+
+    .loginInfo {
+        position: absolute;
+        top: 100px;
+        left: 5%;
+        width: 350px;
+    }
+
+    .loginInfo input {
+        width: 200px;
+    }
+
+
+}

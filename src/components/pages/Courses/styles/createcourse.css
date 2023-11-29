@@ -1,0 +1,180 @@
+.createCoursePage {
+  position: absolute;
+  margin: 4vw;
+  width: 90vw;
+  border: 1px black solid;
+  border-radius: 8px;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.createCoursePage .createCoursePage_menubar {
+  background-color: rgb(6, 116, 243);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.createCoursePage .createCoursePage_menubar .submitBut {
+  margin: 40px 30px;
+}
+
+.createCoursePage_content {
+  background-color: rgb(180, 187, 194);
+  overflow-y: scroll;
+}
+
+/* Short Course*/
+
+.dayDataBox {
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+  top: 5vh;
+  left: 1.5vw;
+  border: 2px black solid;
+}
+
+.calendrBtn img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.date {
+  float: right;
+  padding: 5px;
+}
+
+.createpaperPage1 {
+  position: relative;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+  overflow-y: scroll;
+}
+/* .createpaperPage1 .center {
+ 
+} */
+.shortcourseform {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 40px;
+}
+
+/* .center {
+  position: relative;
+  padding: 20px 50px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+
+
+.center h1 {
+  font-size: 2em;
+  border-left: 5px solid dodgerblue;
+  padding: 10px;
+  color: #000;
+  letter-spacing: 5px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.center .inputbox {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.center .inputbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 2px solid #000;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+.center .cal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 93%;
+  border: 2px solid #000;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+.center .inputbox textarea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 2px solid #000;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+.center .inputbox:last-child {
+  margin-bottom: 0;
+}
+
+.center .inputbox span {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: sans-serif;
+}
+
+.center .inputbox .indep {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: sans-serif;
+}
+
+.center .inputbox input:focus ~ span,
+.center .inputbox input:valid ~ span {
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 1em;
+}
+
+.center .inputbox textarea:focus ~ span,
+.center .inputbox textarea:valid ~ span {
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 1em;
+}
+
+.center .inputbox [type="button"] {
+  width: 50%;
+  background: dodgerblue;
+  color: #fff;
+  cursor: pointer;
+  border: #fff;
+}
+
+.center .inputbox:hover [type="button"] {
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+} */

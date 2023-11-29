@@ -1,0 +1,105 @@
+/* 
+
+
+
+
+/* Default styles for larger screens */
+.aboutusbody {
+    background-color: white;
+}
+
+.imageabout {
+    width: 100%;
+}
+
+.aboutBody_header {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.aboutword {
+    display: flex;
+    margin-top: 60px;
+}
+
+.aboutparagraph {
+    width: 100%;
+    max-width: 712px;
+    font-size: 14px;
+    margin-left: 100px;
+  
+}
+
+.aboutheads {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.storyabout {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.aboutstart {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.aboutBody .accordion {
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+}
+
+.aboutBody .accordion .title {
+    font-size: 2rem;
+}
+
+.aboutBody_header_intro {
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 1rem;
+}
+
+/* Media query for screens with a maximum width of 768px (tablets and mobile) */
+@media screen and (max-width: 768px) {
+    .aboutword {
+        flex-direction: column; /* Stack content vertically on smaller screens */
+        align-items: center;
+        text-align: center;
+        margin-top: 40px; /* Adjust margin for better spacing */
+    }
+
+    .aboutparagraph {
+        margin-left: 0; /* Reset margin for text */
+        margin-top: 20px; /* Adjust margin for better spacing */
+        width: 100%; /* Make the text take full width on smaller screens */
+    }
+
+    .aboutheads {
+        margin-left: 0; /* Reset margin for headers */
+        text-align: center;
+    }
+
+    .storyabout {
+        font-size: 36px; /* Adjust font size for smaller screens */
+    }
+
+    .aboutstart {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .aboutBody .accordion {
+        top: 2rem; /* Adjust the position of the accordion on smaller screens */
+    }
+}

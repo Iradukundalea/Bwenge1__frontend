@@ -1,0 +1,8 @@
+.coursespocs {
+  position: absolute;
+  margin: 3vw;
+  width: 95vw;
+  border: 1px black solid;
+  border-radius: 8px;
+  min-height: 90vh;
+}

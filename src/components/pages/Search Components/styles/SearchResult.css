@@ -1,0 +1,14 @@
+.attached .item{
+    /* display: grid;
+    grid-template-rows: 50% 50%;
+    background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+}
+.attached .header{
+    height: 10px;
+}
+
+.resNumb{
+    left:0;
+}

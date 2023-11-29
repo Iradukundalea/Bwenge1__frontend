@@ -1,0 +1,490 @@
+/* .header {
+  width: 90vw;
+  padding-right: 2.5rem;
+
+} */
+.but{
+  display: inline-flex;
+
+}
+.searchiconi{
+  margin-top: 6px;
+  margin-left: 20px;
+  position: absolute;
+  width: 37px;
+  height: 32px;
+  color: #989898;
+  font-size: large;
+}
+.btni{
+box-sizing: border-box;
+ 
+  width: 75px;
+  height: 41px;
+  left: 1118px;
+  top: 22px;
+  background: #FFFFFF;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 8px 0px 0px 8px;
+
+}
+.btnii{
+    width: 75px;
+    height: 41px;
+    left: 1266.42px;
+    top: 63.45px;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 0px 8px 8px 0px;
+  
+}
+.button-text{
+  transform: rotate(-179.79deg);
+}
+
+
+
+.headerPhones {
+  position: fixed;
+  top: 0%;
+  z-index: 2;
+  background-color: white;
+  height: 7vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 0px;
+  padding-inline: 10px;
+}
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 2s ease-in-out;
+}
+
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  transition: all 2s;
+}
+
+.headerPhones .userBar {
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  height: 9vh;
+  /* border-radius: 50%; */
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  z-index: 2;
+  background-color: white;
+}
+
+.gridiTeM .icon {
+  width: 100%;
+  font-size: 5vh;
+  height: 100%;
+}
+
+.thoselectedGrid {
+  height: 7vh;
+  display: grid;
+  grid-template-rows: 60% 20%;
+  align-items: center;
+  justify-items: center;
+  color: green;
+}
+
+.thoselectedGrid .icon {
+  font-size: 4vh;
+}
+
+/* .container-fluid {
+  background-color: rgb(192, 192, 192);
+  height: 6vh;
+} */
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.964) 0px 2px 0px;
+  background-color: aquamarine;
+ height: 80px;
+
+}
+
+.paragr {
+  display: inline-flex;
+  margin-left: 50px;
+}
+
+.par {
+  margin-top: 25px;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 32.4px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  font-family: 'Mogra', sans-serif;
+  margin-right: 20px;
+
+}
+
+
+.container-fluid {
+  background: white;
+  height: 60px;
+
+}
+
+
+#mySearchBox {
+  transition: 0.5s ease-in-out;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-left: 30px;
+     
+}
+.searchinput{
+  
+  width: 123.5px;
+
+}
+.loginSignupBTN{
+
+  margin-left: 50px;
+}
+
+
+.navbar-brand img {
+  /* margin-top: 1rem; */
+  width: 70px;
+  height: 70px;
+  transition: 1s ease-in-out;
+  /* box-shadow: rgba(0, 0, 0, 0.09) 2px 2px 0px; */
+}
+
+.userBtn {
+  width: 15rem;
+}
+
+#navbarSupportedContent {
+  /* border-bottom: 1px solid black; */
+  /* position: fixed;
+  top: 0px;
+  width: 100vw; */
+  left: 14rem;
+  opacity: 1;
+  color: black;
+}
+
+.userBtn .theUserProfiles {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: absolute;
+  top: 7vh;
+  right: 0%;
+  padding-top: 1rem;
+  width: 15rem;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.userpicPro img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.statistics {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.statistic {
+  text-align: center;
+  padding-left: 0px;
+}
+
+.statistic .value {
+  font-size: 2rem;
+}
+
+.theUserProfiles .top-names {
+  margin-top: 2rem;
+  font-size: large;
+  font-weight: 700;
+  text-align: center;
+}
+
+.bwengeuserContributionsCount .userOptions:hover {
+  background-color: rgb(184, 184, 184);
+}
+
+/* .userBtn .theUserProfiles::after {
+  content: "";
+  opacity: 0;
+} */
+/* .userBtn .userpicPro:hover .theUserProfiles {
+  display: block;
+  opacity: 0.9;
+} */
+/* .navbar-brand img:hover {
+  width: 100px;
+  height: 100px;
+} */
+
+.nav-link {
+  color: black;
+  font-size: 1.2rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 550;
+}
+
+.nav-link:hover {
+  color: rgb(126, 151, 89);
+  transition: 0.3s;
+}
+
+.itemu {
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+.signup {
+  background-color: black;
+  color: white;
+ 
+}
+.log{
+  margin-right: 60px;
+  margin-bottom: 10px;
+}
+
+.nav-item {
+  color: black;
+  padding: 5px;
+  margin-top: 5px;
+
+}
+
+@media screen and (min-width: 1000px) {
+  .userBtn img {
+    margin-left: 60%;
+  }
+
+  .searchPlace {
+    margin-right: 1rem;
+    margin-top: 0.6vh;
+  }
+
+  .userBtn .userpicPro {
+    z-index: 5;
+    opacity: 10;
+    position: absolute;
+    top: 2vh;
+    right: 5vw;
+  }
+
+  .navbar {
+    height: 7vh;
+    padding-top: 1.1rem;
+  
+
+  }
+
+  #navbarSupportedContent {
+    padding-top: 1rem;
+  }
+
+  .navbar-brand img {
+    transform: translateY(-10%);
+  }
+
+  .ulnavsBars {
+    transform: translateY(-30%) translateX(-5%);
+  }
+
+  .userBtn img {
+    margin-left: 60%;
+    /* position: relative;
+    left: 50%; */
+    transform: translateY(-20%);
+  }
+}
+
+@media screen and (max-width: 997px) {
+  .userBtn img {
+    margin-block: 2vw;
+    margin-left: 1.5rem;
+  }
+  
+  
+
+  .userBtn .theUserProfiles {
+    display: none;
+  }
+ 
+}
+
+/* .app__navbar{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    background-color: rgb(12, 87, 2);
+    padding: 0.2rem 2rem;
+}
+
+.bwengeUniverse{
+    position: absolute;
+    
+}
+
+.app__navbar-logo .knowledge-icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+   
+}
+
+.app__navbar-logo .knowledge-icon svg{
+    width: 150px;
+}
+
+.app__navbar-links{
+   
+    color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.app__navbar-links li a{
+
+    color: white;
+    font-size: 1rem;
+    margin: 0 .2rem;
+    cursor: pointer;
+}
+
+
+
+.app__navbar-login{
+    position: absolute;
+    right: 70px;
+}
+.app__navbar-login a{
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: .5s ease;
+}
+.app__navbar-login .userLoginIm:hover{
+    border-bottom: 1px ;
+}
+
+
+.userLoginIm{
+    height: 38px;
+    width: 38px;
+    filter: invert(100%) sepia(100%) hue-rotate(-180deg) saturate(3);
+}
+.userLoginIm:hover{
+    filter: invert(70%) sepia(100%) hue-rotate(-180deg) saturate(3);
+    cursor: pointer;
+}
+
+.app__navbar-smallscreen{
+    display: none;
+    color: white;
+}
+
+.app__navbar-smallscreen_overlay{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    transition: .5s ease;
+    flex-direction: column;
+    z-index: 5;
+}
+.app__navbar-smallscreen_overlay .overlay__close{
+    font-size: 27px;
+    color: gold;
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+
+.app__navbar-smallscreen_links{
+    list-style: none;
+    color: white;
+}
+.app__navbar-smallscreen_links li{
+    margin: 2rem;
+    cursor: pointer;
+    color: yellow;
+    font-size: 2rem;
+    text-align: center;
+}
+.app__navbar-smallscreen_links li .linksTo{
+    margin: 2rem;
+    cursor: pointer;
+    color: yellow;
+    font-size: 2rem;
+    text-align: center;
+
+
+}
+.app__navbar-smallscreen_links li .linksTo:hover{
+    color: white;
+}
+
+@media screen and (max-width:2000px){
+    .app__navbar-logo img{
+        width: 210px;
+    }
+}
+
+@media screen and (max-width:1150px){
+    .app__navbar-links{
+        display: none;
+    }
+    .app__navbar-smallscreen{
+        display: flex;
+        color: azure;
+    }
+    .app__navbar-login{
+        top: 40px;
+        right: 400px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .app__navbar{
+        padding: 0.1rem 1rem;
+    }
+    .app__navbar-login{
+        top: 40px;
+        right: 40vw;
+    }
+    .app__navbar-logo .knowledge-icon{
+        width: 100px;
+        height: 90px;
+    }
+}
+
+
+
+
+*/

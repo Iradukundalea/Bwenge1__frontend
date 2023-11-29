@@ -1,0 +1,19 @@
+.indivMooc_body {
+    position: absolute;
+    width: 100vw;
+    margin-top: 20px;
+}
+
+.moocToolbar {
+    background-color: rgb(107, 101, 0);
+    height: 40vh;
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding-top: .5rem;
+}
+
+.moocToolbar .m-2 {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    transition: border 1s;
+}

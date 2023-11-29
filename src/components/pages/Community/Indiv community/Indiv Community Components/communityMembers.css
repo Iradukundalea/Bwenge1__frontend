@@ -1,0 +1,6 @@
+@media screen and (max-width: 780px) {
+  .communityMemberPic {
+    width: 5rem;
+    height: 5rem;
+  }
+}

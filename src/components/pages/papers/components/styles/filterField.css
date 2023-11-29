@@ -1,0 +1,14 @@
+.filterTab {
+  display: flex;
+  flex-direction: raw;
+}
+
+.filterDropdown1 {
+  margin-right: 20px;
+  background-color: black;
+  color: aliceblue;
+  height: 30px;
+}
+.filterDropdown1 .item {
+  padding: 5px;
+}

@@ -1,0 +1,27 @@
+.PaperBox {
+  position: relative;
+}
+
+.PaperBox .title {
+  text-align: center;
+}
+.PaperBox .authors {
+  margin-top: 10px;
+  text-align: center;
+}
+.PaperBox .abstract {
+  float: left;
+}
+
+.rowInfo {
+  margin-block: 20px;
+  margin-inline: 10px;
+}
+
+.rowTitle {
+  font-size: large;
+  font-weight: bold;
+}
+p {
+  line-height: 25px;
+}

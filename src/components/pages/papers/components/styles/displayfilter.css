@@ -1,0 +1,20 @@
+.displayFilters{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem 0;
+}
+.filterItem{
+    margin-right: 10px;
+    background-color: rgb(66, 99, 0);
+    color: white;
+    height: 30px;
+    padding: 5px 5px;
+    border-radius: 3px;
+}
+.filterItem i{
+    margin:0 1rem;
+    cursor: pointer;
+}
+.filterItem i:hover{
+    color: thistle;
+}

@@ -1,0 +1,17 @@
+.instructorPage {
+  position: relative;
+  margin: 4vw;
+  width: 90vw;
+  border: 1px black solid;
+  border-radius: 8px;
+  min-height: 80vh;
+  display: grid;
+  grid-template-rows: 8% 92%;
+}
+.instructorPage .instructorPage_menubar {
+  background-color: rgb(220, 218, 218);
+  border-radius: 8px 8px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}

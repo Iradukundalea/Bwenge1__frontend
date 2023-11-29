@@ -1,0 +1,24 @@
+.filterDropdown{
+    background-color: rgb(20, 14, 14);
+    color: white;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: .7rem;
+    font-weight: 900;
+}
+.filterDropdown .checkbox{
+    width: 20rem;
+}
+.countDepCrs{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 2px;
+}

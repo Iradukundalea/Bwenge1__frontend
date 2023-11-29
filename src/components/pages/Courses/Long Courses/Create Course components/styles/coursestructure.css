@@ -1,0 +1,25 @@
+.mapItems{
+    margin-top: 10px;
+    background-color: rgb(66, 99, 0);
+    color: white;
+    height: 40px;
+    width: 200px;
+    padding: 5px 5px;
+    border-radius: 3px;
+}
+.mapItemsObj{
+    margin-top: 10px;
+    background-color: rgb(66, 99, 0);
+    color: white;
+    height: 40px;
+    width: auto;
+    padding: 5px 5px;
+    border-radius: 3px;
+}
+.mapItemsObj .close{
+    float: right;
+}
+
+.mapItems .close{
+    float: right;
+}

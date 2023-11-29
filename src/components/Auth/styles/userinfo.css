@@ -1,0 +1,83 @@
+.userInfoBody {
+  position: relative;
+  width: 100vw;
+  /* height: 100%; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-family: "Sansita Swashed", cursive;
+}
+
+.userInfoBody .card {
+  position: absolute;
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+  top: 15vh;
+  left: 20vw;
+  width: 400px;
+  height: 400px;
+}
+
+.userInfoBody .userTable {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-row-gap: 20px;
+}
+
+.profileImage:hover .profileImage {
+  background-color: rgb(50, 17, 17);
+  width: 12rem;
+  height: 12rem;
+}
+@media screen and (max-width: 2000px) {
+}
+
+@media screen and (max-width: 1150px) {
+  .topTitle {
+    height: 40px;
+  }
+  .topTitle span {
+    font-size: 1.5rem;
+  }
+  .loginIntro {
+    top: 40px;
+    height: 40px;
+  }
+  .loginIntro span {
+    font-size: 1.5rem;
+  }
+  .userInfoBody .card {
+    top: 15vh;
+    left: 15vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .topTitle {
+    height: 30px;
+  }
+  .topTitle span {
+    font-size: 1.2rem;
+  }
+  .loginIntro {
+    top: 30px;
+    height: 30px;
+  }
+  .loginIntro span {
+    font-size: 1rem;
+  }
+  .userInfoBody .card {
+    top: 15vh;
+    left: 7vw;
+    width: 350px;
+    height: 350px;
+  }
+  .userInfoBody .userTable {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-row-gap: 20px;
+    font-size: 0.2rem;
+  }
+}

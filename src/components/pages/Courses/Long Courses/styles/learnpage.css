@@ -1,0 +1,25 @@
+.Learn_header {
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.learn_body {
+    position: absolute;
+    margin: 2vw;
+    width: 95vw;
+    border: 1px black solid;
+    border-radius: 8px;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.learn_body_curriculum {
+    background-color: bisque;
+}
+
+.lectureselector {
+    border: 1px solid black;
+    height: 2rem;
+    cursor: pointer;
+}

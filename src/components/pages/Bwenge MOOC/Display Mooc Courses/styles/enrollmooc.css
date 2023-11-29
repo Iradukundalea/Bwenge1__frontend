@@ -1,0 +1,9 @@
+.longCourseBody .title,
+.instructors,
+.lastUpdate {
+  color: aliceblue;
+}
+.longCourseBody .title {
+  font-size: x-large;
+  font-weight: bold;
+}

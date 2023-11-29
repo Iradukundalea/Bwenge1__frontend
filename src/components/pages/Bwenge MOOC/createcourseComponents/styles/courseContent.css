@@ -1,0 +1,107 @@
+.answerItemMC {
+  margin-bottom: 20px;
+}
+
+.questionDescriber {
+  display: grid;
+  grid-template-columns: 10% 70% 15% 5%;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 2rem;
+  /* justify-items: center; */
+  align-items: center;
+}
+i {
+  cursor: pointer;
+}
+
+.scoreShower {
+  background-color: rgb(58, 58, 58);
+  color: aliceblue;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.questionlabel {
+  cursor: pointer;
+}
+
+.addContent .AddFileItem {
+  margin-right: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+.addContent .AddFileItem:hover .txtItem {
+  background-color: black;
+  color: aliceblue;
+}
+.chapterT .editImage {
+  margin-left: 3px;
+  padding-top: 4px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.lectureT .editImage {
+  margin-left: 3px;
+  padding-top: 4px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.lectureT .dropicon {
+  width: 30px;
+  height: 30px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.lectureT .editImage:hover,
+.chapterT .editImage:hover {
+  opacity: 1;
+}
+.lectureT .trashImage,
+.chapterT .trashImage {
+  margin-left: 5px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.lectureT .trashImage:hover,
+.chapterT .trashImage:hover {
+  opacity: 1;
+}
+.contentshow {
+  margin-top: 20px;
+}
+.fileName {
+  margin-top: 5px;
+}
+
+.answerItemMC {
+  margin-bottom: 20px;
+}
+
+.questionDescriber {
+  display: grid;
+  grid-template-columns: 10% 70% 15% 5%;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 2rem;
+  /* justify-items: center; */
+  align-items: center;
+}
+i {
+  cursor: pointer;
+}
+
+.scoreShower {
+  background-color: rgb(58, 58, 58);
+  color: aliceblue;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.questionlabel {
+  cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.PaperBox{
+    position: relative;
+    height: 80vh;
+
+    margin: 20px 20px;
+    background: #fff;
+    padding-top: 40px;
+    /* padding: 5px 5px; */
+
+}
+
+.PaperBox .title{
+    text-align: center;
+}
+.PaperBox .authors{
+    margin-top: 10px;
+    text-align: center;
+}
+.PaperBox .abstract{
+    float: left;
+}
+
+.rowInfo{
+    margin-block: 20px ;
+    margin-inline: 10px;
+}
+
+.rowTitle{
+    font-size: large;
+    font-weight: bold;
+}
+p{
+    line-height: 25px;
+}

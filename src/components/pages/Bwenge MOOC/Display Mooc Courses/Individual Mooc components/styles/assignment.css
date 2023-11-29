@@ -1,0 +1,14 @@
+.Quiz_dropicon {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.Quiz_button {
+  float: right;
+}
+
+.quiz_title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}

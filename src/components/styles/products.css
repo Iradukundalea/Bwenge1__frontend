@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+/* .products .prodBody {
+  margin-top: 4rem;
+}
+
+.products h2 {
+  text-decoration: underline;
+  margin-left: 5rem;
+}
+
+.rowTitle {
+  font-size: large;
+  font-weight: bold;
+}
+
+p {
+  padding-left: 10px;
+  line-height: 25px;
+  font-size: large;
+} */
+
+/* body {
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  line-height: 1.5;
+  overflow-x: hidden;
+  background: gainsboro;
+} */
+a {
+  text-decoration: none;
+}
+.a :hover {
+  color: red;
+}
+.container {
+  margin: auto;
+  position: relative;
+}
+.serviceRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card123 {
+  background: linear-gradient(120.84deg, #3c43e7 19.71%, #53f263 64.39%, #f4ec17 97.7%);
+  display: flex;
+  min-height: 15rem;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 15px rgb(red, green, blue);
+  flex: 1 1 20rem;
+  margin: 15px 15px;
+  padding: 10px 20px;
+}
+.serviceRow :hover {
+  background: #3c43e7;
+  text-decoration: #53f263;
+}
+
+.img {
+  width: 200px;
+  border-radius: 200%;
+}
+.card123 h4 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+.h4 :hover {
+  color: aquamarine;
+}
+
+.btn1 {
+  display: inline-block;
+  margin-top: auto;
+  background: rgb(34, 31, 31);
+  text-align: center;
+  color: aquamarine;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+}
+.btn1 :hover {
+  color: wheat;
+}
+/* @media (max-width: 1000px) {
+  .row {
+    display: block;
+  }
+
+  .card123 {
+    margin: "auto";
+  }
+} */

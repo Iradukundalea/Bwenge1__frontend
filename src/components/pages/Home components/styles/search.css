@@ -1,0 +1,81 @@
+.searchBar {
+  position: relative;
+  z-index: 0.5;
+  height: 100px;
+  padding: 0;
+  left: 25%;
+  margin-top: 30px;
+}
+.searchBar .dropdown {
+  height: 40px;
+  width: 140px;
+  font-size: larger;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.searchBar .input {
+  width: 700px;
+  height: 50px;
+}
+.searchBar .theSearcharea {
+  background-color: beige;
+}
+.link {
+  margin-top: 5px;
+}
+.checkboxes {
+  position: absolute;
+  top: 60px;
+  display: flex;
+}
+
+.checkboxes .checked {
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 2000px) {
+}
+
+@media screen and (max-width: 1150px) {
+  .searchBar {
+    left: 10%;
+  }
+  .searchBar .dropdown {
+    height: 20px;
+    width: 90px;
+    font-size: large;
+  }
+  .searchBar .input {
+    width: 600px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .searchBar {
+    left: 5%;
+  }
+  .searchBar .dropdown {
+    height: 20px;
+    width: 90px;
+    font-size: large;
+  }
+  .searchBar .input {
+    width: 400px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .searchBar {
+    left: 5%;
+  }
+  .searchBar .dropdown {
+    height: 20px;
+    width: 90px;
+    font-size: large;
+  }
+  .searchBar .input {
+    width: 300px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,110 @@
+.registerBody{
+    position: absolute;
+    width: 100vw;
+  
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: "Sansita Swashed", cursive;
+}
+
+.registerBody .topTitle{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(2, 128, 145);
+    color: white;
+}
+.registerBody .topTitle span{
+    font-size: 2rem;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.registerBody .loginIntro {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(231, 230, 230);
+    color: rgb(22, 22, 22);
+    border-bottom: 2px solid whitesmoke;
+}
+.registerBody .loginIntro span{
+    font-size: 2rem;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.registerBody .loginInfo{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 30%;
+    top:25%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.registerBody .loginInfo input{
+    width: 300px;
+}
+
+.registerBody .addiLogin p{
+    padding-top: 5px;
+}
+.registerBody .error-message{
+    color:red;
+}
+
+@media screen and (max-width:2000px){
+  
+}
+
+@media screen and (max-width:1150px){
+    .registerBody .topTitle{
+        height: 40px;
+    }
+    .registerBody .topTitle span{
+        font-size: 1.5rem;
+    }
+    .registerBody .loginIntro {
+        top:40px;
+        height: 40px;
+    }
+    .registerBody .loginIntro span{
+        font-size: 1.5rem;
+    }
+    .registerBody .loginInfo{
+        position: absolute;
+        top: 100px;
+        left: 20%;
+    }
+
+}
+
+@media screen and (max-width:650px){
+    .registerBody .topTitle{
+        height: 30px;
+    }
+    .registerBody .topTitle span{
+        font-size: 1.2rem;
+    }
+    .registerBody .loginIntro {
+        top:30px;
+        height: 30px;
+    }
+    .registerBody .loginIntro span{
+        font-size: 1rem;
+    }
+    .registerBody .loginInfo{
+        position: absolute;
+        top: 100px;
+        left: 5%;
+        width: 350px;
+    }
+    .registerBody .loginInfo input{
+        width: 200px;
+    }
+    
+
+}

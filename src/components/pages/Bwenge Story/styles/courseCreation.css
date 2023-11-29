@@ -1,0 +1,234 @@
+.courseCreatorHeader {
+ 
+  text-align: center;
+  margin-top: 50px;
+}
+.courseCreatePa{
+
+  width: 364px; 
+  height: 180px;
+  top: 828px;
+  left: 188px;
+  margin-top: 80px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+  
+
+}
+.createcourseim{
+  width: 100%;
+}
+.service_container{
+  margin-top: 80px;
+}
+.createco{
+  margin-top: 80px;
+  margin-left: 150px;
+}
+
+.adweb {
+  margin-top: 50px;
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+}
+.introduction {
+
+  font-size: 16px;
+  margin-top: 50px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  justify-items: center;
+  background: #fff;
+ 
+}
+.readmorecous{
+
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+.createparagrahs{
+  font-size: 15px;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding-bottom: 5px;
+}
+ .advisor {
+ 
+  width: 516px;
+  height: 412px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 0 10px 0 rgb(1, 1, 1);
+  
+}
+
+ .advisor2 {
+  width: 516px;
+  height: 412px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 0 10px 0 rgb(1, 1, 1);
+}
+ .webdesign {
+  width: 516px;
+  height:  412px;
+
+  margin-left: 50px;
+  background: #fff;
+  border-radius: 6px;
+ box-shadow: 0 0 10px 0 rgb(1, 1, 1);
+
+}
+ .webdesign2 {
+  
+  width: 516px;
+  height: 412px;
+  margin-left: 50px;
+
+  background: #fff;
+  border-radius: 5px;
+
+  box-shadow: 0 0 10px 0 rgb(1, 1, 1);
+}
+.createparagrah{
+
+font-size: 15px;
+margin-top:30px;
+margin-left: 40px;
+
+
+}
+.createparagrahs{
+ 
+    font-size: 15px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0em;
+      text-align: left;
+  }
+.coursetitle{
+
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.combination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+}
+ .assistance {
+  width: 516px;
+  height: 500px;
+  margin-top: 50px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px 0 rgb(1, 1, 1);
+}
+.courseCreateh1 {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+margin-left: 50px;
+margin-top: 50px;
+}
+.courseCreateParagr {
+  font-size: 1.2rem;
+  padding: 2px;
+  margin-top: 10px;
+}
+.courseCreatLister {
+  font-size: 1.2rem;
+  padding: 2px;
+  margin-left: 20px;
+}
+
+
+/* CSS for small devices (e.g., mobile phones) */
+@media (max-width: 768px) {
+  .courseCreatorHeader {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+
+  .createco {
+    margin-left: 0;
+    flex-direction: column;
+    
+  }
+
+  .advisor,
+  .advisor2,
+  .webdesign,
+  .webdesign2,
+  .assistance {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .adweb {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introduction {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .courseCreateParagr {
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+
+  .coursetitle {
+    padding-top: 20px;
+    font-size: 1.2rem;
+  }
+
+  .combination {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .courseCreateh1 {
+    margin-left: 0;
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+
+  .createparagrahs {
+    margin-left: 0;
+    font-size: 0.9rem;
+    margin-left: 15px;
+  }
+
+  .createparagrah {
+    margin-left: 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    margin-left: 15px;
+  }
+
+  .readmorecous {
+    padding-top: 10px;
+    font-size: 1rem;
+  }
+}

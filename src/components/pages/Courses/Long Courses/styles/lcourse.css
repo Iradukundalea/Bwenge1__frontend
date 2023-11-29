@@ -1,0 +1,48 @@
+.longCourseBody {
+    position: relative;
+    display: block;
+    overflow: auto;
+    min-height: 150vh;
+    scroll-behavior: smooth;
+}
+
+.courseCardUp {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(24, 202, 0);
+}
+
+.courseDet_tit {
+    background-color: rgb(204, 204, 204);
+    font-size: 1.5rem;
+    height: 2.5rem;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-weight: 700;
+    margin-block: 20px;
+}
+
+.courseCardUp_image img {
+    width: 20rem;
+    height: 16rem;
+}
+
+.courseCardUp_intro {
+    margin: 20px;
+}
+
+.courseCardUp_intro .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.courseCardUp_intro .headline {
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
