@@ -37,7 +37,7 @@ const UnivProject = () => {
       return `http://localhost:3000/login`;
     } else {
       setBlank = "_blank";
-      return `http://localhost:5000/${paper.selectedFile}`;
+      return `http://13.59.38.98:5000/${paper.selectedFile}`;
     }
   };
   const renderDownloadOption = () => {
@@ -46,10 +46,21 @@ const UnivProject = () => {
   return (
     <div className="ui segment m-3">
       {/* <div className="journal">{paper.journal}</div> */}
-      <div style={{ fontWeight: "bold", textDecoration: "underline", fontSize: "2.5rem", display: "flex", justifyContent: "center" }}>
+      <div
+        style={{
+          fontWeight: "bold",
+          textDecoration: "underline",
+          fontSize: "2.5rem",
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
         {paper.title}
       </div>
-      <a class="ui label" onClick={(e) => history.push(`/userinfo/${paper.creator.creatorId}`)}>
+      <a
+        class="ui label"
+        onClick={(e) => history.push(`/userinfo/${paper.creator.creatorId}`)}
+      >
         <FaUserAstronaut class="ui right spaced avatar image" />
         {paper.creator.lastName + " " + paper.creator.firstName}
       </a>
@@ -81,7 +92,12 @@ const UnivProject = () => {
         </p>
       </div>
       <div style={{ height: "60vh", width: "70%" }}>
-        <iFrame class="embed-responsive-item" width="100%" height="100%" src={`${thekomp}/${paper.selectedFile}`} />
+        <iFrame
+          class="embed-responsive-item"
+          width="100%"
+          height="100%"
+          src={`${thekomp}/${paper.selectedFile}`}
+        />
       </div>
     </div>
   );

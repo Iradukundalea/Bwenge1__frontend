@@ -17,7 +17,7 @@ const Course = () => {
       return `http://localhost:3000/login`;
     } else {
       setBlank = "_blank";
-      return `http://localhost:5000/${course.courseFile}`;
+      return `http://13.59.38.98:5000/${course.courseFile}`;
     }
   };
   return (
@@ -35,20 +35,41 @@ const Course = () => {
       </div>
 
       <div>
-        {course.courseFile.substr(course.courseFile.length - 3, 3) === "mp4" && (
-          <ReactPlayer url={course.courseFile} controls={true} width="700px" height="400px" />
+        {course.courseFile.substr(course.courseFile.length - 3, 3) ===
+          "mp4" && (
+          <ReactPlayer
+            url={course.courseFile}
+            controls={true}
+            width="700px"
+            height="400px"
+          />
         )}
-        {course.courseFile.substr(course.courseFile.length - 3, 3) === "pdf" && (
-          <div style={{ border: "1px solid rgba(0, 0, 0, 0.3)", height: "500px", width: "800px" }}>
+        {course.courseFile.substr(course.courseFile.length - 3, 3) ===
+          "pdf" && (
+          <div
+            style={{
+              border: "1px solid rgba(0, 0, 0, 0.3)",
+              height: "500px",
+              width: "800px",
+            }}
+          >
             {/* <DocsViewer link={course.courseFile} /> */}
           </div>
         )}
       </div>
       <PrivateButton>
-        <button onClick={(e) => history.push("/editcourse")} class="ui primary button" style={{ float: "right", marginRight: "40px" }}>
+        <button
+          onClick={(e) => history.push("/editcourse")}
+          class="ui primary button"
+          style={{ float: "right", marginRight: "40px" }}
+        >
           Edit Course
         </button>
-        <button onClick={(e) => dispatch(deleteCourse(course._id))} class="ui violet button" style={{ float: "right", marginRight: "40px" }}>
+        <button
+          onClick={(e) => dispatch(deleteCourse(course._id))}
+          class="ui violet button"
+          style={{ float: "right", marginRight: "40px" }}
+        >
           Delete Course
         </button>
       </PrivateButton>
