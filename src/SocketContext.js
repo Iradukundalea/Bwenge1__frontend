@@ -6,7 +6,7 @@ import { setMaxListeners } from "events";
 
 const SocketContext = createContext();
 
-const socket = io("http://localhost:5000", {
+const socket = io("http://13.59.38.98:5000", {
   reconnectionDelay: 1000,
   reconnection: true,
   reconnectionAttemps: 10,
@@ -28,10 +28,12 @@ const ContextProvider = ({ children }) => {
   const userVideo = useRef();
   const connectionRef = useRef();
   useEffect(() => {
-    navigator.mediaDevices.getUserMedia({ video: true, audio: true }).then((currentStream) => {
-      setStream(currentStream);
-      myVideo.current.srcObject = currentStream;
-    });
+    navigator.mediaDevices
+      .getUserMedia({ video: true, audio: true })
+      .then((currentStream) => {
+        setStream(currentStream);
+        myVideo.current.srcObject = currentStream;
+      });
     socket.on("me", (id) => setMe(id));
     socket.on("calluser", ({ from, name: callerName, signal }) => {
       setCall({ isReceivingCall: true, from, name: callerName, signal });
@@ -58,7 +60,12 @@ const ContextProvider = ({ children }) => {
   const callUser = (id) => {
     const peer = new Peer({ initiator: true, trickle: false, stream });
     peer.on("signal", (data) => {
-      socket.emit("calluser", { userToCall: id, signalData: data, from: me, name });
+      socket.emit("calluser", {
+        userToCall: id,
+        signalData: data,
+        from: me,
+        name,
+      });
     });
 
     //other user video
@@ -78,7 +85,22 @@ const ContextProvider = ({ children }) => {
     window.location.reload();
   };
   return (
-    <SocketContext.Provider value={{ call, callAccepted, myVideo, userVideo, stream, name, setName, callEnded, me, callUser, leaveCall, answerCall }}>
+    <SocketContext.Provider
+      value={{
+        call,
+        callAccepted,
+        myVideo,
+        userVideo,
+        stream,
+        name,
+        setName,
+        callEnded,
+        me,
+        callUser,
+        leaveCall,
+        answerCall,
+      }}
+    >
       {children}
     </SocketContext.Provider>
   );

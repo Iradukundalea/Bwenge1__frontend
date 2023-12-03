@@ -45,7 +45,7 @@ const EnrollCoursePage = () => {
     formData.append("courseId", course.id);
     const config = {
       method: "post",
-      url: "http://localhost:5000/enroll/enrolluser",
+      url: "http://13.59.38.98:5000/enroll/enrolluser",
       headers: {
         "Content-Type": "application/json",
       },

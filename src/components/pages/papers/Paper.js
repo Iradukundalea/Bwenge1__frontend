@@ -37,7 +37,7 @@ const Paper = () => {
       return `http://localhost:3000/login`;
     } else {
       setBlank = "_blank";
-      return `http://localhost:5000/${paper.selectedFile}`;
+      return `http://13.59.38.98:5000/${paper.selectedFile}`;
     }
   };
   const renderDownloadOption = () => {
@@ -58,7 +58,11 @@ const Paper = () => {
       >
         {paper.title}
       </div>
-      <a style={{ marginTop: "2rem" }} class="ui label" onClick={(e) => history.push(`/userinfo/${paper.creator.creatorId}`)}>
+      <a
+        style={{ marginTop: "2rem" }}
+        class="ui label"
+        onClick={(e) => history.push(`/userinfo/${paper.creator.creatorId}`)}
+      >
         <FaUserAstronaut class="ui right spaced avatar image" />
         {paper.creator.lastName + " " + paper.creator.firstName}
       </a>
@@ -91,7 +95,12 @@ const Paper = () => {
         </p>
       </div>
       <div style={{ width: "100%", height: "70vh" }}>
-        <iFrame class="embed-responsive-item" width="100%" height="100%" src={`${thekomp}/${paper.selectedFile}#toolbar=0`} />
+        <iFrame
+          class="embed-responsive-item"
+          width="100%"
+          height="100%"
+          src={`${thekomp}/${paper.selectedFile}#toolbar=0`}
+        />
       </div>
     </div>
   );
